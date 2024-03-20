@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- RADIO INPUT TYPE -->
+    <div>
+        <input type = "radio" name = "fruit" id=" apple" value="apple">
+        <!-- if name attribute is  same you can select only one value -->
+        <label for="apple">apple</label>
+        <input type = "radio" name = "fruit" id=" mango" value="mango">
+        <label for="mango">mango</label> 
+        <input type = "radio" name = "fruit" id=" banana" value="banana">
+        <label for="banana">banana</label>
+    </div>
+    <!-- you always have to give value in radio button  -->
+        
+        <button>submit</button>
+        <!-- DROP DOWN -->
+        <div>
+            choose your professsion:
+            <select name = "profession" id = "profession"> 
+                <option > Select Your option</option>
+
+                <option value = "student"  selected > student</option>
+                <!-- selected attribute is used for pre selection -->
+                <option value = "teacher"> teacher</option>
+                <option value = "actor"> actor</option>
+
+            </select>
+            <button>submit</button>
+        </div>
+        <!-- range input  -->
+        <div>
+           <input type = "range"  id = "vol" name = "volume" min="0" max="100" value = "50" step="10">
+           <label>volume  </label>
+           <button>submit</button>
+        </div>
+        <!-- TEXT AREA -->
+        <div>
+            <label for="feedback"> add your feedback</label>
+            <textarea placeholder="write your feedback" id = "feedback" name = "feedback" rows="5" cols="100"></textarea>
+        </div>
+        <button>submit</button>
+    </form>
+ 
+</body>
+</html>
